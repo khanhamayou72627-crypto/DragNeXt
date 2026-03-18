@@ -1,21 +1,45 @@
 <p align="center">
-  <img align="left" src="./figure/logo.png" width="14%" /><h1 align="center">DragNeXt: Rethinking Drag-Based Image Editing</h1>
-</p>       
+  <img align="left" src="./assets/logo.png" width="14%" /><h1 align="center">DragNeXt: Rethinking Drag-Based Image Editing</h1>
+</p>
 
 🌈 This repository is the official code of [DragNeXt](https://arxiv.org/pdf/2506.07611). DragNeXt is accepted by AAAI 2026 🎉🎉🎉!
 
-## 1. 🎯 Todo list
-- [x] open a Github repository for DragNeXt; 
-- [x] initialize README.md;
+
+## A. Two Ambiguity Issues: Factor-1 and Factor-2
+
+<p align="center">
+  <img src="./assets/issue_solution.png" width="90%" />
+</p>
+
+## B. Framework of DragNeXt
+
+<p align="center">
+  <img src="./assets/dragnext.png" width="90%" />
+</p>
+
+
+
+## C. Environment Preparation
+
+Run the command:
+`pip install -r requirements.txt`
+
+## D. Run DragNeXt Code
+`cd DragNext && python dragnext_ui.py`
+
+## 🎯 Todo list
+
+- [X] open a Github repository for DragNeXt;
+- [X] initialize README.md;
 - [ ] add more visualized results in the repository;
-- [ ] upload the code of DragNeXt;
+- [X] upload the code of DragNeXt;
 - [ ] re-clean and polish the code;
-- [ ] detail the packages and environment required by DragNeXt;
+- [X] detail the packages and environment required by DragNeXt;
 
+## 🌟 BibTeX
 
-
-## 2. 🌟 BibTeX
 If you find this repository is useful for your research, please give us a star and cite our paper 🙏!
+
 ```bibtex
 @article{zhou2025dragnext,
   title={DragNeXt: Rethinking Drag-Based Image Editing},
@@ -24,6 +48,3 @@ If you find this repository is useful for your research, please give us a star a
   year={2025}
 }
 ```
-
-
- e
